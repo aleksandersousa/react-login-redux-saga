@@ -42,7 +42,7 @@
 .app__login-hr {
   align-self: stretch;
   margin: 0;
-  color: #f3f3f3;
+  color: #66b7ae;
 }
 
 .app__login-inputs {
@@ -56,9 +56,10 @@
 
 .app__login-inputs p {
   height: 100%;
-  font-size: .875rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #626161;
+  margin-bottom: 2rem;
 }
 
 .app__login-inputs_form {

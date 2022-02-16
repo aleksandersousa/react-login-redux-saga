@@ -47,7 +47,7 @@ export default function Login() {
               <Grid item>
                 <TextField
                   fullWidth
-                  variant="outlined"
+                  variant="filled"
                   label="E-mail"
                   autoComplete="email"
                   error={!!errors?.email}
@@ -64,7 +64,7 @@ export default function Login() {
               <Grid item>
                 <TextField
                   fullWidth
-                  variant="outlined"
+                  variant="filled"
                   label="Senha"
                   type={showPassword ? 'text' : 'password'}
                   error={!!errors?.password}
@@ -91,7 +91,7 @@ export default function Login() {
               size="medium"
               type="submit"
               fullWidth
-              style={{ maxWidth: '80%', marginTop: '1rem', fontWeight: '600' }}
+              style={{ maxWidth: '80%', marginTop: '2rem', fontWeight: '600' }}
               variant="outlined"
               className={classes.btn}
             >
