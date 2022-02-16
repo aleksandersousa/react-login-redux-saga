@@ -91,7 +91,12 @@ export default function Login() {
               size="medium"
               type="submit"
               fullWidth
-              style={{ maxWidth: '80%', marginTop: '2rem', fontWeight: '600' }}
+              style={{
+                maxWidth: '80%',
+                marginTop: '2rem',
+                padding: '0.5rem',
+                fontWeight: '600',
+              }}
               variant="outlined"
               className={classes.btn}
             >
