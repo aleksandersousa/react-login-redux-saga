@@ -1,0 +1,121 @@
+.app__login {
+  width: 100%;
+  height: 100%;
+  background-color: #A4BBDB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.app__login-wrapper {
+  width: 70%;
+  height: 60%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__login-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__login-img {
+  width: 90%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.app__login-img img {
+  width: 300px;
+  object-fit: contain;
+  float: right;
+}
+
+.app__login-hr {
+  align-self: stretch;
+  margin: 0;
+  color: #f3f3f3;
+}
+
+.app__login-inputs {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.app__login-inputs p {
+  height: 100%;
+  font-size: .875rem;
+  font-weight: 400;
+  color: #626161;
+}
+
+.app__login-inputs_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.app__login-button {
+  padding-left: 2rem;
+  margin-top: 5px;
+}
+
+.app__login-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__login-footer span, p {
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__login-img img {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__login-img {
+    text-align: center;
+  }
+
+  .app__login-img img {
+    float: none;
+  }
+
+  .app__login-hr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .app__login-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__login-img img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__login-img img {
+    width: 14.5rem;
+  }
+}
