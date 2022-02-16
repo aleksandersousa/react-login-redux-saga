@@ -106,7 +106,7 @@ export default function Login() {
         </div>
       </div>
       <div className="app__login-footer">
-        <span>&reg; Software Powered by Xtrategie</span>
+        <span>&copy; Software Powered by Xtrategie</span>
         <p>2009 - 2021</p>
       </div>
     </div>
